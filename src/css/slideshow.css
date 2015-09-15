@@ -1,0 +1,48 @@
+body { font-family:Arial, Helvetica, sans-serif; margin:0; padding:0}
+.MansetBaslik{ font-family:Arial, Helvetica, sans-serif; font-size:24px; color:white;font-weight:normal;}
+.MansetZaman{font-family:Arial, Helvetica, sans-serif; font-size:22px; color:#8BB629;font-weight:normal;}
+.MansetOzet{font-family:Arial, Helvetica, sans-serif; font-size:14px; color:white; font-weight:normal;}
+.asagi{margin-top:5px; margin-left:-3px;}
+.shadow {
+text-shadow: #333333 0.1em 0.1em 0.2em
+}
+/* container for slides */
+.images {
+	/*background:#fff url(http://web1.kure.tv/P/resources/images/h300.png) repeat-x;*/
+	position:relative;	
+	height:150px;
+	width:963px;
+	float:left;	
+	cursor:pointer;
+	
+}
+
+/* single slide */
+.images div {
+	display:none;
+	position:absolute;
+	top:0;
+	left:0;		
+	height:305px;
+	font-size:12px;
+}
+
+/* header */
+.images h3 {
+	font-size:22px;
+	font-weight:normal;
+	margin:0 0 20px 0;
+	color:#456;
+}
+img {border:0px;}
+
+
+
+/* disabled navigational button. is not needed when tabs are configured with rotate: true */
+.disabled {
+	visibility:hidden !important;		
+}
+.navigasyonBar{width:963px; height:35px;padding-top:4px; padding-bottom:4px; background-color:#eee; border-bottom:1px solid #ddd}
+.leftNavi{float:left; padding:5px; padding-top:1px;}
+.rightNavi{float:left; padding:5px; padding-top:1px;}
+.MansetPro{ float:left}

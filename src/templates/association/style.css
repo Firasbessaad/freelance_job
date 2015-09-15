@@ -1,0 +1,1939 @@
+@font-face {
+font-family: 'GE_SS_Two_Medium';
+src: url('fonts/GE_SS_Two_Medium.eot');
+src: local('KFGQPC Uthman Taha Naskh'), url('fonts/GE_SS_Two_Medium.otf') format('opentype');}
+
+@font-face {
+font-family: 'GE SS Text Light';
+src: url('fonts/GE_SS_Text_Light.eot');
+src: local('KFGQPC Uthman Taha Naskh'), url('fonts/GE SS Text Light.otf') format('opentype');}
+
+@font-face {
+font-family: 'KFGQPC_Naskh';
+src: url('fonts/KFC_naskh.eot');
+src: local('KFGQPC Uthman Taha Naskh'), url('fonts/KFC_naskh.otf') format('opentype');}
+
+* { margin: 0; padding: 0; outline: 0; }
+
+
+
+body {
+
+	background: url(images/bg.jpg) center top repeat-y;;
+
+	background-attachment: fixed;
+
+	font: normal 14px GE SS Text Light;
+
+	background-color: #f8f8f5;
+
+	color: #000; 
+
+	direction: rtl;
+
+}
+
+
+
+a {
+
+	color: #2d2b29; 
+
+	text-decoration: none;
+
+}
+
+
+
+a:hover {
+
+	color: #f93911;
+
+	background-color: transparent;
+
+}
+
+
+
+small { 
+
+font: normal 11px GE SS Text Light;
+
+}
+
+
+
+input,textarea,select { 
+
+border: 1px solid #a59c84;
+
+background-color: #f2dda8;
+
+padding: 5px;
+
+margin-top: 5px;
+
+font: normal 12px tahoma;
+
+}
+
+
+
+input:hover, textarea:hover, select:hover { 
+
+background-color: transparent;
+
+}
+
+
+
+input.poll {
+
+	padding: 0 5px 0 0;
+
+	border:none;
+
+	margin-top:10px;
+
+	background-color: #f8f8f5;
+
+}
+
+
+
+ul {
+
+padding:15px;
+
+}
+
+
+
+
+
+/* Start Page */
+
+#xpage {
+
+width:965px;
+
+margin:0 auto;
+
+padding: 10px 0 0px 0;
+
+}
+
+
+
+#xpage .divrightx{
+
+width:200px;
+
+margin:0;
+
+padding: 0px 3px 0px 0;
+
+float:right;
+
+}
+
+
+
+#xpage .divleftx{
+
+width:200px;
+
+margin:0;
+
+padding: 0px 0px 0px 1px;
+float:left;
+
+}
+
+
+
+#xpage .divcenterx{
+
+width:565px;
+
+margin:0 auto;
+
+padding: 0;
+
+}
+
+
+
+#xpage .divcenterxpadding {
+
+padding: 1px 0 0 2px;
+
+}
+
+/* End Page */
+
+
+
+
+
+
+
+
+
+/* Start menu Box */
+
+.menus {
+
+margin: 0; 
+
+padding: 0 0 5px 0;
+
+}
+
+
+
+.menus div.divtitle {
+
+width:197px;
+
+height:45px;
+
+margin: 0; 
+
+padding: 0;
+
+background: url(images/m1.png) no-repeat;
+
+}
+
+
+
+.menus div.divtitle h2 {
+
+margin: 0; 
+
+padding: 10px 0 0 0;
+
+font: 14px GE_SS_Two_Medium;
+
+color:#6d3806;
+
+text-align:center;
+
+}
+
+
+
+.menus div.divtext {
+
+width:197px;
+
+margin: 0; 
+
+padding: 0;
+
+background: url(images/m3.png) repeat-y;
+
+}
+
+
+
+.menus div.divtextpadding {
+
+margin: 0; 
+
+padding: 0 15px 0 10px;
+
+}
+
+
+
+.menus div.divfooter {
+
+width:197px;
+
+height:22px;
+
+margin: 0; 
+
+padding: 0;
+
+background: url(images/m2.png) no-repeat;
+
+}
+
+
+
+.menus ul {	
+
+	margin: 0; 
+
+	padding: 3px 3px 3px 0;	
+
+	list-style: none;
+
+}
+
+
+
+.menus ul li {	
+
+	background: url(images/ul.png) no-repeat right;
+
+	padding: 0 13px 3px 0;
+
+}
+
+
+
+.menus ul li a {	
+
+	color: #2d2b29;
+
+	padding: 0 2px 0 0;
+
+	text-decoration: none;
+
+	font: normal 13px GE SS Text Light;
+
+}
+
+
+
+.menus ul li:hover{
+
+	background: url(images/ul-hover.png) no-repeat right;
+
+}
+
+
+
+.menus ul li a:hover{
+
+	color: #f93911;
+
+}
+
+/* End menu Box */
+
+
+
+
+
+/* Start Content Box */
+
+#contents {
+
+width:562px;
+
+margin: 0 auto; 
+
+padding: 0;
+
+}
+
+
+
+#contents .divup {
+
+width:562px;
+
+height:45px;
+
+margin: 0; 
+
+padding: 0;
+
+background: url(images/t1.png) no-repeat;
+
+}
+
+
+
+#contents .divup h1 {
+
+margin: 0; 
+
+padding: 10px 0 0 0;
+
+font: 13px GE_SS_Two_Medium;
+
+color:#6d3806;
+
+text-align:center;
+
+}
+
+
+
+#contents .divcenter {
+
+width:562px;
+
+margin: 0; 
+
+padding: 0;
+
+background: url(images/t3.png) repeat-y;
+
+}
+
+
+
+#contents .divcenterpadding {
+
+margin: 0; 
+
+padding: 0 20px 0 20px;
+
+font: regular 14px GE SS Text Light, Verdana, Helvetica, sans-serif;
+
+line-height:21px;
+
+text-align:justify;
+
+}
+
+
+
+#contents .divcenterpadding ul {	
+
+	margin: 0; 
+
+	padding: 5px 7px 5px 0;	
+
+	list-style: none;
+
+}
+
+
+
+#contents .divcenterpadding ol {	
+
+	margin: 0; 
+
+	padding: 5px 25px 5px 0;	
+
+}
+
+
+
+#contents .divcenterpadding ul li {	
+
+	background: url(images/ul.png) no-repeat right;
+
+	padding: 0 15px 3px 0;
+
+}
+
+
+
+#contents .divcenterpadding ul li a {	
+
+	color: #000;
+
+	padding: 0 2px 0 0;
+
+	text-decoration: none;
+
+}
+
+
+
+#contents .divcenterpadding ul li:hover{
+
+	background: url(images/ul-hover.png) no-repeat right;
+
+}
+
+
+
+#contents .info{
+
+	width: 100%;
+
+	margin: 0 auto;
+
+}
+
+
+
+#contents .divdown {
+
+width:562px;
+
+height:22px;
+
+margin: 0; 
+
+padding: 0;
+
+background: url(images/t2.png) no-repeat;
+
+}
+
+/* End Content Box */
+
+
+
+
+
+/* Start box */
+
+.box { 
+
+padding: 0;
+
+margin: 0;
+
+font: normal 14px GE SS Text Light;
+
+}
+
+
+
+.box input,textarea,select { 
+
+border: 1px solid #a59c84;
+
+background-color: #f2dda8;
+
+padding: 5px;
+
+margin-top: 5px;
+
+background-color: transparent;
+
+}
+
+
+
+.box input:hover, textarea:hover, select:hover { 
+
+background-color: transparent;
+
+}
+
+
+
+.boxborder {
+
+font: normal 14px GE SS Text Light;
+
+border: 1px solid #a59c84;
+
+background-color: #f8f8f5;
+
+padding: 3px;
+
+text-align:center;
+
+}
+
+
+
+.replay {
+
+margin-top: 5px;
+
+padding: 5px;
+
+font: normal 14px GE SS Text Light;
+
+border: 1px solid #a59c84;
+
+background-color: #f2dda8;
+
+}
+
+
+
+.replayadmin {
+
+margin-top: 5px;
+
+padding: 5px;
+
+font: normal 14px GE SS Text Light;
+
+border: 1px solid #a59c84;
+
+background-color: #f8f8f5;
+
+}
+
+/* End box */
+
+
+
+.multipage {
+
+	width: 520px;
+
+    padding:5px; 
+
+    margin:0 auto;
+
+    margin-top:5px;
+
+    text-align:center;
+
+    font: normal 12px GE SS Text Light;
+
+}
+
+
+
+.multipage span {
+
+    padding:2px 5px 2px 5px;
+
+    margin:3px;
+
+    background-color: #f8f8f5; 
+
+    border:1px solid #a59c84;
+
+}
+
+
+
+.multipage span:hover {
+
+    background-color: #f8f8f5;
+
+    border:1px solid #a59c84;
+
+}
+
+
+
+.multipage span.act {
+
+    background-color: #f8f8f5;
+
+    border:1px solid #a59c84;
+
+    color:#666;
+
+}
+
+
+
+.savetable {
+
+font: normal 14px GE SS Text Light;
+
+border: 1px solid #FFD700;
+
+background-color: #f8f8f5;
+
+padding: 3px;
+
+text-align:center;
+
+}
+
+
+
+
+
+.button {
+
+border: 1px solid #a59c84;
+
+margin: 1px;
+
+padding: 2px;
+
+}
+
+
+
+.codx {
+
+	border: 1px solid #a59c84;
+
+	margin: 10px;	
+
+	padding: 5px;
+
+	background:#f8f8f5;
+
+	direction: ltr;
+
+	text-align: left;
+
+	display: block;
+
+    overflow: auto;  
+
+    font: 500 1em/1.5em 'Lucida Console', 'courier new', monospace;
+
+}
+
+
+
+
+
+/* Start news index */
+
+#newsindex {
+
+width:562px;
+
+margin:0 auto;
+
+padding: 7px 0 0 0;
+
+}
+
+
+
+#newsindex h1 {
+
+margin:0;
+
+padding: 5px 10px 5px 5px;
+
+font: bold 15px GE SS Text Light;
+
+color:#666;
+
+}
+
+
+
+#newsindex img {
+
+float:left;
+
+margin:0;
+
+padding-right:10px;
+
+width:100px; 
+
+height:100px;
+
+border: 0px solid #B7A45F;
+
+}
+
+
+
+#newsindex div.titlenews {
+
+margin:0 auto;
+
+border: 1px solid #a59c84;
+
+background:#f8f8f5 url(images/headerbg.png) repeat-x;
+
+}
+
+
+
+#newsindex div.contentnews {
+
+margin:0 auto;
+
+border: 1px solid #a59c84;
+
+background:#f8f8f5 url(images/b1.png) repeat-x bottom;
+
+line-height:21px;
+
+text-align:justify;
+
+}
+
+
+
+#newsindex div.newsindex2table {
+
+overflow: auto;
+
+height: 200px;
+
+padding:5px;
+
+margin:0 auto;
+
+border-right: 1px solid #a59c84;
+
+border-left: 1px solid #a59c84;
+
+background:#f8f8f5 url(images/b1.png) repeat-x bottom;
+
+line-height:21px;
+
+text-align:justify;
+
+}
+
+
+
+#newsindex div.paddingnews {
+
+padding:10px;
+
+}
+
+
+
+#newsindex div.infonews {
+
+font: normal 10px GE SS Text Light;
+
+color:#000;
+
+padding-top: 15px;
+
+text-align:center;
+
+}
+
+
+
+#newsindex div.infonews1 {
+
+font: normal 10px GE SS Text Light;
+
+color:#000;
+
+text-align:center;
+
+border-right: 1px solid #a59c84;
+
+border-left: 1px solid #a59c84;
+
+border-bottom: 1px solid #a59c84;
+
+background:#f8f8f5 url(images/b2.jpg) repeat-x top;
+
+padding:10px;
+
+}
+
+/* End news index */
+
+
+
+
+
+
+
+#1headertop {
+
+width:963px;
+
+height:0px;
+
+margin:0 auto;
+
+text-align:center;
+
+
+
+}
+
+
+
+.banner {
+
+width:963px;
+
+height:247px;
+
+margin:0;
+
+padding: 0 0 0 0;
+
+background: url(images/header.jpg) no-repeat;
+
+text-align:center;
+
+}
+
+
+
+#headerbody {
+
+width:963px;
+
+margin:0 auto;
+
+}
+
+
+
+#headerbottom {
+
+width:963px;
+
+height:20px;
+
+margin:0 auto;
+
+text-align:center;
+
+
+
+}
+
+
+
+.copyrightfppter { 
+
+padding: 10px 0 0 0;
+
+margin: 0;
+
+font: normal 14px GE SS Text Light;
+
+text-align:center;
+
+}
+
+
+
+
+
+/* Start programm */
+
+.programm {
+
+margin:0;
+
+border: 1px solid #a59c84;
+
+background:#f8f8f5 url(images/b2.jpg) repeat-x;
+
+}
+
+
+
+.programm h1 {
+
+margin:0;
+
+padding: 5px 10px 5px 5px;
+
+font: bold 15px GE SS Text Light;
+
+}
+
+
+
+.programmdesc {
+
+margin:0;
+
+padding:7px;
+
+font: normal 14px GE SS Text Light;
+
+text-align:justify;
+
+}
+
+
+
+.programminfo {
+
+margin:0;
+
+padding:7px;
+
+font: normal 11px GE SS Text Light;
+
+text-align:left;
+
+}
+
+/* end programm */
+
+
+
+
+
+
+
+/* Start fatwa */
+
+.fatwaq {
+
+margin:0;
+
+padding:10px;
+
+border: 1px solid #a59c84;
+
+background-color:#f8f8f5;
+
+font: bold 15px GE SS Text Light;
+
+color:#666;
+
+}
+
+
+
+.fatwaf {
+
+width:70%;
+
+margin:0 auto;
+
+padding:10px;
+
+border: 1px solid #a59c84;
+
+background-color:#f8f8f5;
+
+font: normal 14px GE SS Text Light;
+
+text-align:center;
+
+}
+
+
+
+.fatwai {
+
+margin:0;
+
+padding: 5px 10px 5px 5px;
+
+float:left;
+
+}
+
+/* end fatwa */
+
+
+
+
+
+/* Start guestbook */
+
+#guestbook {
+
+width:520px;
+
+margin:0 auto;
+
+padding: 0;
+
+}
+
+
+
+#guestbook h1 {
+
+width:200px;
+
+margin:0 auto;
+
+padding: 5px;
+
+font: bold 15px GE SS Text Light;
+
+text-align:center;
+
+background:#f8f8f5 url(images/b2.jpg) repeat-x;
+
+border: 1px solid #a59c84;
+
+}
+
+
+
+#guestbook div.ginfo {
+
+margin:0;
+
+padding:3px;
+
+border: 1px solid #a59c84;
+
+background:#f8f8f5 url(images/headerbg.png) repeat-x;
+
+font: normal 11px GE SS Text Light;
+
+float:left;
+
+}
+
+
+
+#guestbook div.gcomments {
+
+margin:0 auto;
+
+border: 1px solid #a59c84;
+
+background:#f8f8f5 url(images/b1.png) repeat-x bottom;
+
+font: normal 12px tahoma;
+
+}
+
+
+
+#guestbook div.gpadding {
+
+padding: 5px;
+
+}
+
+/* End guestbook */
+
+
+
+
+
+/* Start navbar */
+
+.navbar {
+
+width:950px;
+
+padding: 2px;
+
+margin: 0 auto;
+
+text-align:center;
+
+}
+
+
+
+.navbar ul {	
+
+	margin: 0; 
+
+	padding: 5px 5px 30px 0;	
+
+	list-style: none;
+
+
+
+}
+
+
+
+.navbar ul li {	
+
+    display:inline;
+
+}
+
+
+
+.navbar ul li a {	
+
+	color: #46352B;
+
+	margin:0 2px;
+
+	padding: 5px;
+
+	text-decoration: none;
+
+	font: bold 13px GE SS Text Light;
+
+	border: 1px solid #551507;
+
+	background: #FCFEF4;
+
+
+
+}
+
+
+
+.navbar ul li a:hover{
+
+	background: #fff;
+
+	color: #925B02;
+
+}
+
+/* End navbar */
+
+
+
+
+
+/* Start Sub YouTube */
+
+.youtube { 
+
+padding: 0;
+
+margin: 0;
+
+font: normal 14px GE SS Text Light;
+
+vertical-align:top;
+
+}
+
+
+
+.youtube img { 
+
+width:110px;
+
+height:90px;
+
+padding: 0 0 5px 0;
+
+margin: 0;
+
+border: 0px solid #a59c84;
+
+}
+
+
+
+.youtube div{ 
+
+border: 1px solid #a59c84;
+
+background-color: #f8f8f5;
+
+padding: 5px;
+
+margin: 3px;
+
+text-align:center;
+
+}
+
+
+
+.youtube div:hover{ 
+
+border: 1px solid #a59c84;
+
+background-color: #f8f8f5;
+
+padding: 5px;
+
+margin: 3px;
+
+}
+
+/* End Sub YouTube */
+
+
+
+
+
+
+
+/* Start Table, Td, Tr */
+
+table.xtable {
+
+font: normal 14px GE SS Text Light;
+
+border: 1px solid #a59c84;
+
+padding: 2px;
+
+margin: 0;
+
+border-collapse: collapse;
+
+}
+
+
+
+table.xtable ul {	
+
+	margin: 0; 
+
+	padding: 5px 7px 5px 0;	
+
+	list-style: none;
+
+}
+
+
+
+table.xtable ul li {	
+
+	background: url(images/ul.png) no-repeat right;
+
+	padding: 0 15px 3px 0;
+
+	
+
+}
+
+
+
+table.xtable ul li a {	
+
+	color: #000;
+
+	padding: 0 2px 0 0;
+
+	text-decoration: none;
+
+	font: normal 14px GE SS Text Light;
+
+}
+
+
+
+table.xtable ul li:hover{
+
+	background: url(images/ul-hover.png) no-repeat right;
+
+}
+
+
+
+.xtr { 
+
+border: 1px solid #a59c84;
+
+color: #000;
+
+background-color: #f8f8f5;
+
+padding: 3px;
+
+}
+
+
+
+td.xtd { 
+
+font: normal 14px GE SS Text Light;
+
+border: 1px solid #a59c84;
+
+background-color: #f8f8f5;
+
+padding: 3px;
+
+}
+
+
+
+td:hover.xtd { 
+
+background-color: #f8f8f5;
+
+padding: 3px;
+
+}
+
+
+
+.xtt         { 
+
+padding:10px;
+
+border: 0px solid #a59c84; 
+
+color: #008000; 
+
+font: normal 14px GE SS Text Light;
+
+clear:both;
+
+text-align:center;
+
+}
+
+/* End Table */
+
+
+
+
+
+
+
+/* Start navigation */
+
+.navigation {
+
+width:950px;
+
+margin:0 auto;
+
+font: bold 15px GE SS Text Light, Verdana, Helvetica, sans-serif;
+
+color: #46352B;
+
+}
+
+
+
+.navigation a {
+
+background: url('images/breadcrumb.gif') no-repeat center right;
+
+text-decoration: none;
+
+padding: 0 20px 0 10px;
+
+color: #46352B;
+
+}
+
+
+
+.navigation a:hover{
+
+text-decoration: none;
+
+color: #f93911;
+
+}
+
+/* End navigation */
+
+
+
+
+
+/* Start Category */
+
+.category { 
+
+padding: 0;
+
+margin: 0;
+
+font: normal 14px GE SS Text Light;
+
+}
+
+
+
+.category div{ 
+
+border: 1px solid #a59c84;
+
+background-color: #f8f8f5;
+
+padding: 5px;
+
+margin: 3px;
+
+}
+
+
+
+.category div:hover{ 
+
+border: 1px solid #666;
+
+background-color: #f8f8f5;
+
+padding: 5px;
+
+margin: 3px;
+
+}
+
+/* End Category */
+
+
+
+.signatures {
+
+	margin: 0;
+
+	padding 0;
+
+}
+
+
+
+.signatures img{ 
+
+border: 0px solid #a59c84;
+
+padding: 0;
+
+margin: 7px 0 7px 0;
+
+}
+
+
+
+.signatures input{ 
+
+width:400px;
+
+padding: 3px;
+
+margin: 0;
+
+font: normal 10px GE SS Text Light;
+
+background:#f8f8f5 url(images/b2.jpg) repeat-x;
+
+}
+
+
+
+
+
+.ads { 
+
+padding: 5px;
+
+margin: 3px;
+
+}
+
+
+
+ul li.url1 , ul li:hover.url1 {
+
+background: url(icons/url1.png) no-repeat right;
+
+padding: 3px 20px;
+
+}
+
+
+
+ul li.url2 , ul li:hover.url2 {
+
+background: url(icons/url2.gif) no-repeat right;
+
+padding: 3px 20px;
+
+}
+
+
+
+ul li.url3 , ul li:hover.url3 {
+
+background: url(icons/url3.png) no-repeat right;
+
+padding: 3px 20px;
+
+}
+
+
+
+ul li.url4 , ul li:hover.url4 {
+
+background: url(icons/url4.gif) no-repeat right;
+
+padding: 3px 20px;
+
+}
+
+
+
+ul li.url5 , ul li:hover.url5 {
+
+background: url(icons/url5.png) no-repeat right;
+
+padding: 3px 20px;
+
+}
+
+
+
+ul li.url6 , ul li:hover.url6 {
+
+background: url(icons/url6.png) no-repeat right;
+
+padding: 3px 20px;
+
+}
+
+
+
+ul li.url7 , ul li:hover.url7 {
+
+background: url(icons/url7.png) no-repeat right;
+
+padding: 3px 20px;
+
+}
+
+
+
+ul li.url8 , ul li:hover.url8 {
+
+background: url(icons/url8.png) no-repeat right;
+
+padding: 3px 20px;
+
+}
+
+
+
+ul li.url9 , ul li:hover.url9 {
+
+background: url(icons/url9.png) no-repeat right;
+
+padding: 3px 20px;
+
+}
+
+
+
+ul li.url10 , ul li:hover.url10 {
+
+background: url(icons/url10.png) no-repeat right;
+
+padding: 3px 20px;
+
+}
+
+
+
+ul li.url11 , ul li:hover.url11 {
+
+background: url(icons/url11.png) no-repeat right;
+
+padding: 3px 20px;
+
+}
+
+
+
+ul li.url12 , ul li:hover.url12 {
+
+background: url(icons/url12.png) no-repeat right;
+
+padding: 3px 20px;
+
+}
+
+
+
+ul li.url13 , ul li:hover.url13 {
+
+background: url(icons/url13.png) no-repeat right;
+
+padding: 3px 20px;
+
+}
+
+
+
+ul li.url14 , ul li:hover.url14 {
+
+background: url(icons/url14.png) no-repeat right;
+
+padding: 3px 20px;
+
+}
+
+
+
+ul li.url15 , ul li:hover.url15 {
+
+background: url(icons/url15.png) no-repeat right;
+
+padding: 3px 20px;
+
+}
+
+
+
+ul li.url16 , ul li:hover.url16 {
+
+background: url(icons/url16.png) no-repeat right;
+
+padding: 3px 20px;
+
+}
+
+
+
+ul li.url17 , ul li:hover.url17 {
+
+background: url(icons/url17.png) no-repeat right;
+
+padding: 3px 20px;
+
+}
+
+
+
+ul li.url18 , ul li:hover.url18 {
+
+background: url(icons/url18.png) no-repeat right;
+
+padding: 3px 20px;
+
+}
+
+
+
+ul li.url19 , ul li:hover.url19 {
+
+background: url(icons/url19.png) no-repeat right;
+
+padding: 3px 20px;
+
+}
+
+
+
+ul li.url20 , ul li:hover.url20 {
+
+background: url(icons/url20.png) no-repeat right;
+
+padding: 3px 20px;
+
+}
+
+
+
+ul li.url21 , ul li:hover.url21 {
+
+background: url(icons/url21.png) no-repeat right;
+
+padding: 3px 20px;
+
+}
+
+
+
+ul li.url22 , ul li:hover.url22 {
+
+background: url(icons/url22.png) no-repeat right;
+
+padding: 3px 20px;
+
+}
+
+/* Start Result */
+
+.result { 
+
+padding: 0;
+
+margin: 0;
+
+}
+
+
+
+.result a {
+
+font: normal 14px GE SS Text Light, Verdana, Helvetica, sans-serif;
+
+}
+
+
+
+.result h1 {
+
+border: 1px solid #a59c84;
+
+background-color: #f8f8f5;
+
+padding: 5px;
+
+margin: 5px;
+
+font: bold 15px GE SS Text Light, Verdana, Helvetica, sans-serif;
+
+}
+
+
+
+.result h1:hover {
+
+background-color: #f8f8f5;
+
+}
+
+/* End Result */
+
+
+
+/* Start Mail List */
+
+.mailformbox {
+
+	margin: 0;
+
+	padding 0;
+
+	text-align:center;
+
+}
+
+
+
+.mailformbox input.txt { 
+
+width:120px;
+
+padding: 3px;
+
+margin: 5px;
+
+font: normal 11px GE SS Text Light;
+
+direction: ltr;
+
+}
+
+
+
+.mailformbox input.subx { 
+
+padding: 3px;
+
+margin: 2px;
+
+font: normal 11px GE SS Text Light;
+
+}
+
+/* End Mail List */
+
+
+
+
+
+/* Start box comment */
+
+.comment { 
+
+padding: 0;
+
+margin: 0;
+
+font: normal 14px GE SS Text Light;
+
+}
+
+
+
+.comment h4 { 
+
+padding: 10px 33px 10px 0;
+
+margin: 30px 0 20px 0;
+
+font: bold 20px GE SS Text Light;
+
+background: url(icons/comment.png) no-repeat right;
+
+}
+
+
+
+.comment input,textarea,select { 
+
+border: 1px solid #278DBD;
+
+background-color: #f8f8f5;
+
+padding: 5px;
+
+margin-top: 5px;
+
+background-color: transparent;
+
+}
+
+
+
+.comment input:hover, textarea:hover, select:hover { 
+
+background-color: transparent;
+
+}
+
+
+
+/* End box comment */
+
+
+
+
+
+/* Start comments */
+
+#comments {
+
+margin: 20px 0 0 0;
+
+padding: 10px 0 0 0;
+
+}
+
+
+
+#comments h1 {
+
+width:200px;
+
+margin:0 auto;
+
+padding: 5px;
+
+font: bold 14px GE SS Text Light;
+
+text-align:center;
+
+background:#f8f8f5 url(images/b2.jpg) repeat-x;
+
+border: 1px solid #a59c84;
+
+}
+
+
+
+#comments div.ginfo {
+
+margin:0;
+
+padding:3px;
+
+border: 1px solid #a59c84;
+
+background:#f8f8f5 url(images/headerbg.png) repeat-x;
+
+font: normal 11px GE SS Text Light;
+
+float:left;
+
+}
+
+
+
+#comments div.gcomments {
+
+margin:0 auto;
+
+border: 1px solid #a59c84;
+
+background:#f8f8f5 url(images/b1.png) repeat-x bottom;
+
+}
+
+
+
+#comments div.gpadding {
+
+padding: 5px;
+
+}
+
+/* End comments */
